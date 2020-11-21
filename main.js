@@ -50,7 +50,7 @@
       // createAllresult();
       createResult();
       createBox();
-      const timeoutId = setTimeout(showResult, 1000);
+      const timeoutId = setTimeout(showResult, 700);
       i++;
       if (i > 9) {
         clearTimeout(timeoutId);
